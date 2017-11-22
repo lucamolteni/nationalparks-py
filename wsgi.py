@@ -31,8 +31,8 @@ api.add_resource(HealthCheck, '/ws/healthz/')
 
 class Info(Resource):
     description = {
-        'id': 'nationalparks-py Pippo',
-        'displayName': 'National Parks',
+        'id': 'nationalparks-py',
+        'displayName': 'National Pippo',
         'type': 'cluster',
         'center': {'latitude': '47.039304', 'longitude': '14.505178'},
         'zoom': 4
